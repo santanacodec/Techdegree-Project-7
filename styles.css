@@ -1,5 +1,10 @@
-html {
-    background-color: gray;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -13,8 +18,18 @@ html {
 }
 
 header {
+    font-size: 1.4em;
     background-color: #7477BF;
     grid-area: header;
+    color: white;
+}
+
+.header-icon {
+    width: 25px;
+}
+
+.avatar {
+    width: 30px;
 }
 
 nav {
