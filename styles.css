@@ -22,21 +22,46 @@ header {
     background-color: #7477BF;
     grid-area: header;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "app-name app-name app-name" 
+        "icon avatar user-name";
+}
+
+.app-name {
+    grid-area: app-name;
+    text-align: center;
 }
 
 .header-icon {
-    width: 25px;
+    width: 40px;
+    grid-area: icon;
 }
 
 .avatar {
-    width: 30px;
+    width: 40px;
+    grid-area: avatar;
+}
+
+
+
+.user-name {
+    grid-area: user-name;
+    font-size: 20px;
 }
 
 nav {
     background-color: #4D4B72;
     grid-area: nav;
+    text-align: center;
+}
+
+.nav-icon {
+    width: 15%;
 }
 
 main {
     grid-area: main;
+    text-align: center;
 }
