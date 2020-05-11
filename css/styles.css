@@ -13,9 +13,48 @@ ul {
 }
 
 header {
+    min-height: 30px;
+    padding: 10px;
     font-size: 1.4em;
     background-color: #7477BF;
     color: white;
+    height: 100%;
+}
+
+.header-bar .app-name {
+    float: left;
+}
+
+.header-bar .header-icon {
+    display: block;
+    padding-right: 20px;
+    border-right: 2px solid rgba(255,255,255,0.1);
+    margin-right: 0;
+    width: 40px;
+    position: absolute;
+    right: 120px;
+}
+
+.header-bar .avatar {
+    display: block;
+    float: right;
+    width: 40px;
+}
+
+.header-bar .user-name {
+    display: block;
+    float: right;
+    justify-content: flex-end;
+}
+
+.header-bar li {
+    padding: 5px 10px 10px 10px;
+}
+
+
+
+nav {
+    background-color: #4d4b72;
 }
 
 main {
