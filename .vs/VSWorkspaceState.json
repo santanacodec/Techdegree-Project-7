@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\css",
+    "\\icons"
   ],
-  "SelectedNode": "\\app.js",
+  "SelectedNode": "\\icons\\icon-bell.svg",
   "PreviewInSolutionExplorer": false
 }
