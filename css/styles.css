@@ -14,21 +14,29 @@ ul {
 
 header {
     min-height: 30px;
-    font-size: 1.4em;
     background-color: #7477BF;
     color: white;
     height: 100%;
+    margin-bottom: 20px;
+}
+
+.header-bar {
+    width: 100%;
+    margin-left: -15px;
 }
 
 .header-bar .app-name {
+    display: block;
     float: left;
+    position: absolute;
+    font-size: 1.6em;
 }
 
 .header-icon {
     display: block;
     position: absolute;
-    right: 220px;
-    top: 15px;
+    right: 200px;
+    top: 16px;
     width: 35px;
     border-right: 2px solid rgba(255,255,255,0.1);
 }
@@ -40,7 +48,7 @@ li {
 .avatar {
     width: 40px;
     position: absolute;
-    right: 165px;
+    right: 142px;
     top: 10px;
     border-radius: 100%;
 }
@@ -51,6 +59,7 @@ li {
     position: absolute;
     right: 20px;
     top: 15px;
+    font-size: 1.2em;
 }
 
 
