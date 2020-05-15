@@ -25,20 +25,22 @@ header {
     margin-left: -15px;
 }
 
-.header-bar .app-name {
-    display: block;
-    float: left;
-    position: absolute;
-    font-size: 1.6em;
-}
+
+    .header-bar .app-name {
+        display: inline-block;
+        float: left;
+        position: absolute;
+        font-size: 1.7em;
+    }
 
 .header-icon {
-    display: block;
+    display: inline-block;
     position: absolute;
-    right: 200px;
-    top: 16px;
-    width: 35px;
+    right: 180px;
+    top: 20px;
+    width: 30px;
     border-right: 2px solid rgba(255,255,255,0.1);
+    display: none;
 }
 
 .header-bar li {
@@ -46,11 +48,13 @@ header {
 }
 
 .avatar {
+    display: inline-block;
     width: 40px;
     position: absolute;
-    right: 142px;
+    right: 130px;
     top: 10px;
     border-radius: 100%;
+    display: none;
 }
 
 .user-name {
@@ -58,18 +62,28 @@ header {
     float: right;
     position: absolute;
     right: 20px;
-    top: 15px;
-    font-size: 1.2em;
+    top: 25px;
+    font-size: 1.1em;
 }
 
 
 nav {
     background-color: #4d4b72;
+    text-align: center;
+}
+nav ul {
+    padding-left: 0;
+    margin: 0;
 }
 
-.nav-icon {
-    display: block;
-    width: 50px;
+.nav-icon {    
+    display: inline; 
+    width: 100%;
+}
+
+.nav-icon img{
+    width: 55px;
+    margin: 20px;
 }
 
 main {
