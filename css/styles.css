@@ -89,3 +89,17 @@ nav ul {
 main {
     text-align: center;
 }
+
+input[id="search"] {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    width: 85%;
+    padding: 13px;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+
+#dashboard {
+    font-weight: lighter;
+}
