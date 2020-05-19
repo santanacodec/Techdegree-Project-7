@@ -6,7 +6,8 @@
     <title>WebApp Dashboard</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/grid.css">
-
+    <link rel="stylesheet" href="dist/Chart.css">
+    <link rel="stylesheet" href="dist/Chart.min.css">
 </head>
 
 <body>
@@ -25,17 +26,21 @@
                 <li class="nav-icon"><img src="icons/icon-members.svg" alt="members" /></li>
                 <li class="nav-icon"><img src="icons/icon-visits.svg" alt="visit traffic" /></li>
                 <li class="nav-icon"><img src="icons/icon-settings.svg" alt="settings" /></li>
-            </ul> 
+            </ul>
         </nav>
         <main>
 
             <input id="search" name="search" type="text" placeholder="Search" data-list="a" />
 
             <h1 id="dashboard">Dashboard</h1>
-            <p id="alert"><strong>Alert</strong> Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor
-            id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. <button class="close">&times;</button></p>
+            <p id="alert">
+                <strong>Alert</strong> Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor
+                id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. <button class="close">&times;</button>
+            </p>
 
             <h2>TRAFFIC</h2>
+
+            <canvas id="myChart" width="400" height="400"></canvas>
 
             <h2>DAILY TRAFFIC</h2>
 
@@ -52,6 +57,11 @@
             <h2>SETTINGS</h2>
         </main>
     </div>
+
+    <script type="text/javascript" src="dist/Chart.bundle.js"></script>
+    <script type="text/javascript" src="dist/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="dist/Chart.js"></script>
+    <script type="text/javascript" src="dist/Chart.min.js"></script>
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
