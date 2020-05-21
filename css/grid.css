@@ -18,3 +18,7 @@ nav {
 main {
     grid-area: main;
 }
+
+#myChart {
+    width: 90%;
+}
