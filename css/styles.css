@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-
-
 body {
     padding: 0;
     margin: 0;
@@ -114,3 +112,25 @@ input[id="search"] {
 }
 
 /* Social Media Widgets */
+
+.twitter-widget {
+    border:2px solid #d6d6d6;
+    border-radius: 10px;
+}
+
+.facebook-widget {
+    border: 2px solid #d6d6d6;
+}
+
+.google-widget {
+    border: 2px solid #d6d6d6;
+}
+.sm-icon-bg {
+    background-color: #7377BF;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.sm-icon {
+    width: 45px;
+}

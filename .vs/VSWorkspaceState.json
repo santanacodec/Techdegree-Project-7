@@ -3,8 +3,9 @@
     "",
     "\\css",
     "\\dist",
-    "\\icons"
+    "\\icons",
+    "\\images"
   ],
-  "SelectedNode": "\\dist\\Chart.min.js",
+  "SelectedNode": "\\app.js",
   "PreviewInSolutionExplorer": false
 }
