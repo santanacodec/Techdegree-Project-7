@@ -115,7 +115,7 @@ input[id="search"] {
 
 .twitter-widget {
     border:2px solid #d6d6d6;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .facebook-widget {
@@ -127,10 +127,13 @@ input[id="search"] {
 }
 .sm-icon-bg {
     background-color: #7377BF;
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     border-radius: 100%;
+    margin: 25px;
 }
 .sm-icon {
-    width: 45px;
+    width: 40px;
+    margin-top: 14px;
+    margin-left: 1px;
 }
