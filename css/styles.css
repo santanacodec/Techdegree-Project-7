@@ -119,6 +119,9 @@ input[id="search"] {
     border:2px solid #d6d6d6;
     border-radius: 5px;
     max-width: 90%;
+    height: 125px;
+    margin-top: 5px;
+    margin-bottom: 25px;
 }
 
 .sm-icon-bg {
@@ -146,4 +149,5 @@ input[id="search"] {
     text-align: left;
     font-size: 60px;
     margin-top: 0;
+    font-weight: 100;
 }
