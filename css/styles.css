@@ -133,7 +133,17 @@ input[id="search"] {
     margin: 25px;
 }
 .sm-icon {
-    width: 40px;
+    width: 35px;
     margin-top: 14px;
     margin-left: 1px;
+}
+
+.sm-name {
+    color: #7377BF;
+    margin-bottom: 0;
+}
+
+.sm-numbers {
+    font-size: 60px;
+    margin-top: 0;
 }
