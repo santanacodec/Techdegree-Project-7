@@ -128,19 +128,33 @@ input[id="search"] {
     display: inline-block;
     float: left;
     background-color: #7377BF;
-    width: 65px;
-    height: 65px;
+    width: 70px;
+    height: 70px;
     border-radius: 100%;
     margin: 25px;
 }
-.sm-icon {
+
+.sm-icon-twitter {
     width: 35px;
+    margin-top: 20px;
+    margin-left: 1px;
+}
+
+.sm-icon-fb {
+    width: 40px;
     margin-top: 14px;
+    margin-left: 0px;
+}
+
+.sm-icon-google {
+    width: 35px;
+    margin-top: 20px;
     margin-left: 1px;
 }
 
 .sm-name {
     text-align: left;
+    margin-left: 1px;
     color: #7377BF;
     margin-bottom: 0;
 }
