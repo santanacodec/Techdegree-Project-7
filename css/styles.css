@@ -154,9 +154,10 @@ input[id="search"] {
 
 .sm-name {
     text-align: left;
-    margin-left: 1px;
+    margin-left: 125px;
+    font-size: 17px;
     color: #7377BF;
-    margin-bottom: 0;
+    margin-bottom: -2px;
 }
 
 .sm-numbers {
