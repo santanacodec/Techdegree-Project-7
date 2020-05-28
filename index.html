@@ -112,11 +112,21 @@
 
             <h2>MESSAGE USER</h2>
             <fieldset>
-                <input type="text" id="user" name="search_user" />
-                <textarea id="message" name="user_message"></textarea>
+                <input type="text" id="user" name="search_user" placeholder="Search for User" />
+                <textarea id="message" name="user_message" placeholder="Message for User"></textarea>
             </fieldset>
 
             <h2>SETTINGS</h2>
+            <p>Send Email Notifications</p>
+            <p>Set Profile to Public</p>
+            <select id="timezones" name="select_timezones">
+                <option>Pacific Time (US)</option>
+                <option>Mountain Time (US)</option>
+                <option>Central Time (US)</option>
+                <option>Eastern Time (US)</option>
+            </select>
+            <button>Save</button>
+            <button>Cancel</button>
         </main>
     </div>
 
