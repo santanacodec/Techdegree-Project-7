@@ -166,3 +166,30 @@ input[id="search"] {
     margin-top: 0;
     font-weight: 100;
 }
+
+/* New Members */
+
+.members-image {
+    border-radius: 100%;
+}
+
+.member-name {
+    margin-bottom: 2px;
+}
+
+.member-email {
+    margin-top: 0px;
+}
+
+.email {
+    text-decoration: none;
+}
+
+hr {
+    width: 75%;
+    border-width: 0;
+    height: 1px;
+    color: silver;
+    background-color: silver;
+}
+
