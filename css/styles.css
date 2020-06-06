@@ -167,7 +167,7 @@ input[id="search"] {
     font-weight: 100;
 }
 
-/* New Members */
+/* Recent Activity */
 
 .members-image {
     border-radius: 100%;
@@ -193,3 +193,18 @@ hr {
     background-color: silver;
 }
 
+/* Message History */
+
+.status {
+    margin-bottom: 2px;
+}
+
+.time {
+    margin-top: 0;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.arrow {
+    width: 5%;
+}
