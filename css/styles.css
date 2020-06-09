@@ -208,3 +208,32 @@ hr {
 .arrow {
     width: 5%;
 }
+
+/* Message User */
+
+fieldset {
+    border: none;
+}
+
+input[id="user"] {
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 13px;
+    border: 1px solid silver;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background-color: #FBFBFB;   
+}
+
+textarea[id="message"] {
+    display: block;
+    resize: none;
+    margin: auto;
+    width: 90%;
+    border: 1px solid silver;
+    border-radius: 4px;
+    height: 125px;
+    padding: 13px;
+    background-color: #FBFBFB;
+}
