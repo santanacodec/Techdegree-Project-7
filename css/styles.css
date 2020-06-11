@@ -238,6 +238,8 @@ textarea[id="message"] {
     background-color: #FBFBFB;
 }
 
+/* Settings */
+
 /* The switch - the box around the slider */
 .switch {
     position: relative;
@@ -300,3 +302,7 @@ input:checked + .slider:before {
     .slider.round:before {
         border-radius: 50%;
     }
+
+#timezones {
+    width: 90%;
+}
