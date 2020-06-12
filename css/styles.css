@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -233,9 +237,18 @@ textarea[id="message"] {
     width: 90%;
     border: 1px solid silver;
     border-radius: 4px;
-    height: 125px;
+    height: 130px;
     padding: 13px;
     background-color: #FBFBFB;
+}
+
+.send-message {
+    width: 85%;
+    height: 50px;
+    background-color: #7377BF;
+    color: white;
+    border: none;
+    border-radius: 4px;
 }
 
 /* Settings */
@@ -308,3 +321,4 @@ input:checked + .slider:before {
     margin-top: 30px;
     margin-bottom: 15px;
 }
+
